@@ -1,0 +1,139 @@
+/* Basic Style */
+*{
+    padding: 0;
+    margin: 0;
+}
+    
+.main{
+    width: 90%;
+    margin: auto;
+}
+
+ /* Header style */
+.header{
+    width: 100%;
+    height: auto;
+}
+.header>h1>span{
+    color: rgb(255, 192, 1);
+}
+.header>h1{
+    color: rgb(235, 228, 228);
+    position: relative;
+    float: left;
+    margin-top:25px;
+    margin-left: 10px;
+    font-size: larger;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation bar overall style */
+nav{
+    width: 100%;
+    background-color: rgb(115, 161, 152);
+    height: 70px;
+    margin-top: 30px;
+    border: 3px solid rgb(91, 137, 84);
+}
+nav>ul{
+    list-style-type: none;
+}
+nav>ul>li{
+    float: right;
+    margin-right: 30px;
+    line-height:70px;
+   
+}
+nav>ul>li>a{
+    text-decoration: none;
+    display: block;
+    font-size: larger;
+    color: rgb(235, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /*Content overall style*/
+ .content>h1{
+     font-family: 'Times New Roman', Times, serif;
+   
+ }
+ .content>h2{
+     color: gray;
+     font-size: 2em;
+ }
+.content>img{
+    width: 100%;
+    height: 70vh;
+}
+.content>p{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray; ;
+}
+/*footer allover style*/
+.footer{
+    width: 100%;
+    background-color: rgb(115, 161, 152);
+    height: 70px;
+    margin-bottom: 30px;
+    border: 3px solid rgb(91, 137, 84);
+    font-size: larger;
+    color: rgb(235, 228, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:70px;
+    text-align: center;
+}
+/*Table Style*/
+.note>Table{
+border: 1px solid rgb(85, 97, 87); 
+width: 100%;
+height: 50vh;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.rat{
+    text-align: left;
+    
+}
+
+.note{
+    background-color: rgb(185, 219, 192);
+}
+
+/*form style*/
+.form{
+    background-color: rgb(130, 184, 147);
+    width: 60%;
+    margin-left: 20%;
+   
+   
+}
+.form>form>label{
+    font-size: 30px;
+}
+.form>form>input{
+    width: 92%;
+    border-radius: 5px;
+    height: 5vh;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.m>label{
+    font-size: 30px;
+}
+.m>input{
+    width: 92%;
+    border-radius: 5px;
+    height: 10vh;
+    border: 1px solid white;
+    margin-left: 20px; 
+}
+.m>button{
+    width: 92%;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 5vh;
+    border: 1px solid rgb(84, 130, 53);
+    color: white;
+    background-color: rgb(84, 130, 53);
+}
